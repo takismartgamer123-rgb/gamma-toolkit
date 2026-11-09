@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build and packaging
+build/
+dist/
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/*.debhelper
+*.deb
+*.build
+*.buildinfo
+*.changes
+
+# Editor and operating system
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
